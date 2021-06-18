@@ -12,6 +12,9 @@ public class TC_007 {
 
         driver.navigate().to("https://www.amazon.de");
 
-        driver.close();
+
+        driver.quit();
+
+
     }
 }
