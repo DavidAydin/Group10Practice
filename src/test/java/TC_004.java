@@ -13,6 +13,8 @@ public class TC_004 {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.cybertekschool.com/");
+
+        driver.quit();
     }
 
 }
