@@ -11,6 +11,7 @@ public class TC_007 {
         WebDriver driver = new ChromeDriver();
 
         driver.navigate().to("https://www.amazon.de");
+        driver.navigate().back();
 
 
         driver.quit();
